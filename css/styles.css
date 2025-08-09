@@ -469,6 +469,7 @@ img {
 .form-footer {
 }
 .form-label {
+  display: flex;
   margin-left: 80px;
   gap: 24px;
 }
@@ -512,4 +513,7 @@ img {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+}
+.social-icon-form {
+  margin-left: 16px;
 }
