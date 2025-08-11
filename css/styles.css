@@ -634,7 +634,6 @@ img {
 }
 .input-modal:focus {
   border-color: #4d5ae5;
-  fill: #4d5ae5;
 }
 .icon-name {
   position: absolute;
@@ -643,7 +642,7 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-modal:focus .icon-name {
+.input-modal:focus + .icon-name {
   fill: #4d5ae5;
 }
 .text-input {
@@ -667,7 +666,7 @@ img {
 .textarea:focus {
   border-color: #4d5ae5;
 }
-.container-checkbox {
+.checkbox-field {
   margin-bottom: 24px;
 }
 .label-checkbox {
@@ -689,13 +688,14 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.input-checkbox:checked .lable-span {
+.checkbox:checked + .lable-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
-.checkbox-privacy {
+.privacy-link {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 .button-send-modal {
   border-radius: 4px;
