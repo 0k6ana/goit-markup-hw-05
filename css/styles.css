@@ -684,6 +684,11 @@ img {
   justify-content: center;
   fill: transparent;
 }
+.lable-span:checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
 .checkbox-privacy {
   color: #4d5ae5;
 }

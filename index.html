@@ -62,7 +62,9 @@
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" id="buttonOpenModalEl">
+            Order Service
+          </button>
         </div>
       </section>
       <section class="section-information">
@@ -495,9 +497,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop" id="modalEl">
       <div class="modal">
-        <button class="button-modal" type="button">
+        <button class="button-modal" type="button" id="buttonCloseModalEl">
           <svg class="icone-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -561,7 +563,7 @@
               type="checkbox"
               value="true"
               name="user-privacy"
-              class="input-checkbox"
+              class="input-checkbox visually-hidden"
             />
             <label for="user-privacy" class="label-checkbox">
               I accept the terms and conditions of the
@@ -577,6 +579,6 @@
         </form>
       </div>
     </div>
-    <skript src="./js/modal.js"></skript>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
